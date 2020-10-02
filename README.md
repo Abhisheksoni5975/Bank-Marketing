@@ -11,9 +11,9 @@ Description:
 
 ### Bank client data
 
-##### age (numeric)
+1.age (numeric)
 
-##### job: type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
+2.job: type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
 
 3.marital: marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
 
