@@ -12,26 +12,39 @@ Description:
 ### Bank client data
 
 1.age (numeric)
+
 2.job: type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
+
 3.marital: marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
+
 4.education: (categorical "unknown","secondary","primary","tertiary")
+
 5.default: has credit in default? (binary: "yes","no")
+
 6.balance: average yearly balance, in euros (numeric) 
+
 7.housing: has housing loan? (binary: "yes","no")
+
 8.loan: has personal loan? (binary: "yes","no")
 
 ### Data related to the last contact of the current campaign
 
 1.contact: contact communication type (categorical: "unknown","telephone","cellular") 
+
 2.day: last contact day of the month (numeric)
+
 3.month: last contact month of year (categorical: "jan", "feb", "mar", ..., "nov", "dec")
+
 4.duration: last contact duration, in seconds (numeric)
- 
+
  ### Other attributes:
 
 1.campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
+
 2.pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric, -1 means client was not previously contacted)
+
 3.previous: number of contacts performed before this campaign and for this client (numeric)
+
 4.poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
  
 
